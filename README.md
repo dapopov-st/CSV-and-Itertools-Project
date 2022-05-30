@@ -1,7 +1,5 @@
 # CSV-and-Itertools-Project
-CSV and Itertools Project
 
-Project
 For this project there are 4 files containing information about persons.
 
 The files are:
