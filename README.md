@@ -16,12 +16,12 @@ We are guaranteed that the same SSN value is present in every file, and that it 
 
 In addition, the files are all sorted by SSN, i.e. the SSN values appear in the same order in each file.
 
-Goal 1
+## Goal 1
 The first task is to create iterators for each of the four files that contained cleaned up data, of the correct type (e.g. string, int, date, etc), and represented by a named tuple.
 
 For now these four iterators are just separate, independent iterators.
 
-Goal 2
+## Goal 2
 Create a single iterable that combines all the columns from all the iterators.
 
 The iterable should yield named tuples containing all the columns. Make sure that the SSN's across the files match!
@@ -30,7 +30,7 @@ All the files are guaranteed to be in SSN sort order, and every SSN is unique, a
 
 Make sure the SSN is not repeated 4 times - one time per row is enough!
 
-Goal 3
+## Goal 3
 Next, we want to identify any stale records, where stale simply means the record has not been updated since 3/1/2017 (e.g. last update date < 3/1/2017). Create an iterator that only contains current records (i.e. not stale) based on the last_updated field from the status_update file.
 
 Goal 4
