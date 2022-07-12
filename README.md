@@ -33,7 +33,7 @@ Make sure the SSN is not repeated 4 times - one time per row is enough!
 ## Goal 3
 Next, we want to identify any stale records, where stale simply means the record has not been updated since 3/1/2017 (e.g. last update date < 3/1/2017). Create an iterator that only contains current records (i.e. not stale) based on the last_updated field from the status_update file.
 
-Goal 4
+## Goal 4
 Find the largest group of car makes for each gender.
 
 Possibly more than one such group per gender exists (equal sizes).
